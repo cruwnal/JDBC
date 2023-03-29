@@ -1,4 +1,9 @@
 public class MutableString1 {
+
+    static {
+        int age=3;
+        System.out.println(age);
+    }
     public static void main(String[] args) {
         // final int a = 20;
 
@@ -29,7 +34,18 @@ public class MutableString1 {
         sb4.reverse();
         System.out.println(sb4);
 
+
+        System.out.println();
+
+
     }
 
+static {
 
+        int age = 6;
+    System.out.println(age);
+}
+static void disp(){
+    System.out.println("static disp method");
+}
 }
